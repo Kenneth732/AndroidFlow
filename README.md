@@ -37,8 +37,8 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/droidforge.git
-cd droidforge
+git clone https://github.com/Kenneth732/AndroidFlow.git
+cd AndroidFlow
 
 # Install core dependencies
 pip install -r requirements.txt
@@ -233,8 +233,8 @@ Contributions are welcome! Please follow these steps:
 
 ```bash
 # Clone with development dependencies
-git clone https://github.com/yourusername/droidforge.git
-cd droidforge
+git clone https://github.com/Kenneth732/AndroidFlow.git
+cd AndroidFlow
 pip install -e ".[dev]"
 
 # Run tests
@@ -258,8 +258,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Support & Community
 
-- **GitHub Issues**: [Report bugs or request features](https://github.com/yourusername/droidforge/issues)
-- **Discussions**: [Join the community](https://github.com/yourusername/droidforge/discussions)
+- **GitHub Issues**: [Report bugs or request features](https://github.com/Kenneth732/AndroidFlow.git/droidforge/issues)
+- **Discussions**: [Join the community](https://github.com/Kenneth732/AndroidFlow.git/discussions)
 - **Documentation**: [Full documentation](https://droidforge.readthedocs.io/)
 
 ## Roadmap
@@ -275,5 +275,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Built with ❤️ for Android automation** | [Report Bug](https://github.com/yourusername/droidforge/issues) | [Request Feature](https://github.com/yourusername/droidforge/issues)
+**Built with ❤️ for Android automation** | [Report Bug](https://https://github.com/Kenneth732/AndroidFlow.git/issues) | [Request Feature](https://github.com/Kenneth732/AndroidFlow.git/issues)
 
