@@ -1,10 +1,10 @@
-# Android Automation Suite - DroidForge
+# Android Automation Suite - AndroidFlow
 
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20macOS%20%7C%20Windows-lightgrey.svg)]()
 
-**DroidForge** is a comprehensive, production-ready Android automation framework that provides programmatic control over Android devices through ADB. Built with developers, testers, and automation enthusiasts in mind, it offers a rich set of features from basic touch gestures to advanced computer vision capabilities.
+**AndroidFlow** is a comprehensive, production-ready Android automation framework that provides programmatic control over Android devices through ADB. Built with developers, testers, and automation enthusiasts in mind, it offers a rich set of features from basic touch gestures to advanced computer vision capabilities.
 
 ##  Features
 
@@ -56,34 +56,34 @@ brew install tesseract  # macOS
 
 ```bash
 # List connected devices
-python droidforge.py --devices
+python AndroidFlow.py --devices
 
 # Take a screenshot
-python droidforge.py --screenshot
+python AndroidFlow.py --screenshot
 
 # Tap at coordinates (1080x1920 resolution)
-python droidforge.py --tap 540 960
+python AndroidFlow.py --tap 540 960
 
 # Type text
-python droidforge.py --text "Hello World"
+python AndroidFlow.py --text "Hello World"
 
 # Record macro
-python droidforge.py --macro-record login_flow
+python AndroidFlow.py --macro-record login_flow
 
 # Play macro
-python droidforge.py --macro-play login_flow
+python AndroidFlow.py --macro-play login_flow
 
 # Monitor app performance
-python droidforge.py --monitor-perf com.example.app 30
+python AndroidFlow.py --monitor-perf com.example.app 30
 
 # Start web interface
-python droidforge.py --web 8080
+python AndroidFlow.py --web 8080
 ```
 
 ### Interactive Mode
 
 ```bash
-python droidforge.py --interactive
+python AndroidFlow.py --interactive
 ```
 
 Interactive commands:
@@ -105,7 +105,7 @@ web 8080                     - Start web interface
 ### Python API
 
 ```python
-from droidforge import AndroidAutomation
+from AndroidFlow import AndroidAutomation
 
 # Initialize the automation suite
 automation = AndroidAutomation()
@@ -142,7 +142,7 @@ metrics = automation.performance_monitor.monitor_app("com.example.app", duration
 Start the web control panel with:
 
 ```bash
-python droidforge.py --web 5000
+python AndroidFlow.py --web 5000
 ```
 
 The interface provides:
@@ -157,7 +157,7 @@ Access at: `http://127.0.0.1:5000`
 ## Architecture
 
 ```
-droidforge/
+AndroidFlow/
 ├── core/
 │   ├── adb_client.py      # ADB communication layer
 │   ├── device_manager.py   # Device discovery and management
@@ -241,8 +241,8 @@ pip install -e ".[dev]"
 pytest tests/
 
 # Check code style
-flake8 droidforge/
-black droidforge/
+flake8 AndroidFlow/
+black AndroidFlow/
 ```
 
 ## License
@@ -258,9 +258,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Support & Community
 
-- **GitHub Issues**: [Report bugs or request features](https://github.com/Kenneth732/AndroidFlow.git/droidforge/issues)
+- **GitHub Issues**: [Report bugs or request features](https://github.com/Kenneth732/AndroidFlow.git/AndroidFlow/issues)
 - **Discussions**: [Join the community](https://github.com/Kenneth732/AndroidFlow.git/discussions)
-- **Documentation**: [Full documentation](https://droidforge.readthedocs.io/)
+- **Documentation**: [Full documentation](https://AndroidFlow.readthedocs.io/)
 
 ## Roadmap
 
